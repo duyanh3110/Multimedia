@@ -1,0 +1,108 @@
+body {
+	background-color: #1C1B1E !important;
+}
+
+/*content page*/
+.page-content {
+	color: white;
+}
+
+/*about me*/
+.title-about-me {
+	font-family: 'Signika', sans-serif;
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 5%;
+	margin-bottom: 2%;
+}
+
+.img-about-me{
+	margin-top: 5%;
+	width: 100%;
+}
+
+.about-me-info-section {
+	padding: 5%!important;
+}
+
+.title-info-about-me {
+	font-family: 'Signika', sans-serif;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.info-about-me-text {
+	font-family: 'Sumana', serif;
+	margin: 5% 0;
+}
+
+/*my work*/
+.my-work-title{
+	font-family: 'Signika', sans-serif;
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 5%;
+	margin-bottom: 2%;
+}
+
+/*Multimedia section*/
+.multimedia-title {
+	font-family: 'Signika', sans-serif;
+	font-size: 25px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.section-work {
+	padding: 5% 2%!important;
+	margin: 5% 0 5% 0;
+	border: 5px solid white;
+	border-radius: 10px;
+}
+
+.section-work a{
+	color: white;
+}
+
+.section-work a:hover{
+	color: white;
+	text-decoration: none;
+}
+
+.lab-main-content {
+	font-family: 'Sumana', serif;
+	text-decoration: none;
+}
+
+/*contact me*/
+#contact-section {
+	width: 80%;
+	margin: auto;
+	margin-bottom: 5%;
+	margin-top: 5%;
+}
+
+.contact-title {
+	font-family: 'Signika', sans-serif;
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.contact-text {
+	font-family: 'Sumana', serif;
+	margin: 5% 0;
+}
+
+.info-contact-title {
+	font-family: 'Signika', sans-serif;
+	font-size: 25px;
+	font-weight: bold;
+	margin: 2% 0;
+}
+
+.info-contact-text {
+	font-family: 'Sumana', serif;
+}

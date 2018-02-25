@@ -1,0 +1,10 @@
+1. Getting Familiar with jQuery
+- What you can do with the jQuery?
+We can use jQuery to navigate a document, select DOM elements, create animations, handle events, and develop Ajax application.
+- How it can help you as web developer?
+All the power of jQuery is accessed via JS. And it will help you ti access to DOM easier.
+- If you think our earlier paiticipant list app, in what kind of issues you could use jQuery?
+I think we can use jQury to get some animation fot this app and use it to add or remoev class easier.
+- What are CDNs? What kind of benefits you get if you use them?
+CDN is A content delivery network. It allows for the quick tranfer of assets needed for loading Internet content including HTML pages, js file, stylesheets, images and videos.
+When using CDNs, it will improve website loadtime, reduce bandwidth cosrs, increase content availability and redundancy, improve website security.

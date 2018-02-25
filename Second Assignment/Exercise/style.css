@@ -1,0 +1,35 @@
+body{
+	background-color: lightgray;
+	width: 95%;
+	margin: auto;
+}
+
+.title {
+	background-color: gray;
+}
+
+.menu {
+	float: left;
+	width: 20%;
+}
+
+.content {
+	float: left;
+	width: 80%;
+}
+
+#capture-image, figure {
+	text-align: center;
+}
+
+@media (max-width: 800px) {
+	.menu, .content {
+		width: 100%;
+	}
+
+	.menu {
+		text-align: center;
+		border-bottom: 0.001em solid black;
+	}
+}
+

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Canvas</title>
+</head>
+<body>
+	<canvas id="myCanvas" width="400" height="200" style="border: 1px solid black"></canvas>
+</body>
+<script>
+	var pic = document.getElementById("myCanvas");
+	var ctx = pic.getContext("2d");
+
+	var shouldPaint = false;
+
+	document.addEventListener("mousedown", function (event) {
+		shouldPaint = true;
+		ctx.beginPath();
+		ctx.moveTo(event.pageX, event.pageY);
+	});
+
+	document.addEventListener("mouseup", function (event) {
+		shouldPaint = false;
+		ctx.lineTo(event.pageX, event.pageY);
+		ctx.stroke();
+	});
+
+	document.addEventListener("mousemove", function (event) {
+		if (shouldPaint) {
+/*			ctx.lineTo(event.pageX, event.pageY);
+			ctx.stroke();*/			
+			ctx.clearRect(0, 0, event.width, event.length);
+		}
+	});
+
+</script>
+</html>

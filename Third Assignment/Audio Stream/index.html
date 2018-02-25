@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Audio Stream</title>
+	</head>
+
+	<style>
+		.audio {
+			text-align: center;
+		}
+	</style>
+
+	<body>
+		<div class="audio">
+			<audio id="audio" controls>
+				<source src="http://stream.basso.fi:8000/stream" type="audio/mpeg">
+			</audio>
+			<div>
+				<button onclick="play()">Play</button>
+				<button onclick="pause()">Pause</button>
+				<div>
+					<p>Volume</p>
+					<input type="range" min="0" max="100" value="100" step="1" id="volume" oninput="setVolume(this.value)">
+				</div>
+			</div>
+		</div>
+	</body>
+
+	<script>
+		var audio = document.getElementById("audio"); 
+		function play() {
+			audio.play();
+		}
+
+		function pause() {
+			audio.pause();
+		}
+
+		function setVolume(value) {
+		    audio.volume = value / 100;
+		}
+	</script>
+</html>
